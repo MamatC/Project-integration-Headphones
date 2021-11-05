@@ -1,0 +1,33 @@
+body{
+    footer{
+        background-color: $gray-800;
+        color: $white;
+
+        .container{
+
+            div{
+                display: flex;
+                width: 60%;
+                margin: 0 0 0 10%;
+                padding-top: 3%;
+                
+                
+                div{
+                    display: block;
+                    width: 80%;
+                    padding-bottom: 3%;
+
+                    h3{
+                        margin-top: 0;
+                    }
+
+                    p{
+                        color: $gray-500;
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        
+    }
+}

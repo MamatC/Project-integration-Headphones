@@ -1,0 +1,25 @@
+body{
+    .container{
+        .detail{
+            display: flex;
+            width: 60%;
+            margin: auto;
+            font-size: 0.8em;
+            padding-bottom: 5%;
+
+            h3{
+                font-weight: 500;
+            }
+            .paraf-left{
+                display: block;
+                width: 80%;
+
+            }
+            .paraf-right{
+                width:30%;
+                margin-left: 40px;
+                
+            }
+        }
+    }
+}

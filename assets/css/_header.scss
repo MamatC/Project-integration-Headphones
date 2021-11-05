@@ -1,0 +1,44 @@
+.header{
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    color: $white;
+    height: 600px;
+
+    .card-header{
+        padding-top: 5%;
+        width: 70%;
+
+        h1{
+            font-size: 3em;
+            font-weight: 400;
+            width: 50%;
+            margin-bottom: 8%;
+            margin-top: 0;
+        }
+        div{
+            margin-bottom: 8%;
+            a{
+            text-decoration: none;
+            color: $white;
+            background-color: $orange;
+            padding: 10px 30px;
+            border-radius: 10px;
+            display: inline;
+            }
+            a:hover{
+                background-color: $orange-500;
+            }
+            p{
+                display: inline;
+                margin-left: 5%;
+                font-weight: 500;
+                font-size: 1.2em;
+                
+                span{
+                    font-size: 0.8em;
+                }
+            }
+        }
+        
+    }
+}
