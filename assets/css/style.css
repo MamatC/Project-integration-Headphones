@@ -192,15 +192,17 @@ body .container .grid-img .overlay-image a {
 body .container .grid-img .overlay-image a img {
   border-radius: 8px;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 body .container .grid-img .overlay-image a .hover {
-  position: relative;
-  width: 265px;
-  height: 190.5px;
+  position: absolute;
   opacity: 0;
   transition: 0.5s ease;
   border-radius: 8px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 4px;
 }
 body .container .grid-img .overlay-image a .hover .text {
   position: relative;

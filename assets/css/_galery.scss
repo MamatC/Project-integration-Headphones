@@ -21,19 +21,18 @@ body{
                     text-decoration: none;
                     color: white;
                     width: 100%;
-                   
+                    
                     img{
                         border-radius: 8px;
                         width: 100%;
-                        position: absolute;
+                        position: relative;
                     }
                     .hover {
-                        position: relative;
-                        width: 265px;
-                        height: 190.5px;
+                        position: absolute;
                         opacity: 0;
                         transition: .5s ease;
                         border-radius: 8px;
+                        top:0; right: 0; left: 0; bottom: 4px;
 
                         .text{
                             position: relative;
